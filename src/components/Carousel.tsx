@@ -56,7 +56,7 @@ export function Carousel({ items, autoScrollInterval = 4000 }: CarouselProps) {
         {items.map((item, index) => (
           <div 
             key={index} 
-            className="w-[85%] xl:w-full h-full shrink-0 snap-center"
+            className="w-[110%] md:w-[90%] xl:w-full h-full shrink-0 snap-center"
           >
             {item}
           </div>

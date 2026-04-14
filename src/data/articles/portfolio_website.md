@@ -44,4 +44,4 @@ Furthermore, on mobile devices, I used it to **dynamically show & hide the Hambu
 
 For those interested in how this application was built, the **full source code** is available on my GitHub.
 
-<resourceitem icon="github" href="https://github.com/dsnjg03">portfolio-website</resourceitem>
+<resourceitem icon="github" href="https://github.com/dsnjg03/portfolio-website">portfolio-website</resourceitem>

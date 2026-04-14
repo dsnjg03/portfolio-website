@@ -36,7 +36,7 @@ export default function Footer()
             <p className="mx-2 text-bright font-semibold font-display mb-[0.15rem]">•</p>
 
             <Link
-            to="https://github.com/dsnjg03"
+            to="https://github.com/dsnjg03/portfolio-website"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary/80 hover:text-primary font-display cursor-pointer"

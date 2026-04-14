@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+html {
+  scroll-behavior:smooth;
+}
+
+@theme {
+  --color-background: #0f172a; /* Deep Slate Blue */
+  --color-surface: #1e293b;    /* Elevated Slate (Cards) */
+  --color-primary: #38bdf8;    /* Vibrant Sky Blue (Links/Icons) */
+  --color-accent: #818cf8;     /* Indigo (Gradients/Highlights) */
+  --color-bright: #f1f5f9;     /* Near-White */
+  --color-muted: #94a3b8;      /* Soft Gray */
+
+  /* Custom Gradients -> going from color-primary to color-accent */
+  --image-gradient-cyber: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+  --bg-gradient-cyber: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+
+  --font-display: "Inter", sans-serif;
+}
+
+@utility button-border-glass {
+  position: relative;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding:2px;
+    border-radius: inherit;
+    background: var(--bg-gradient-cyber);
+    
+    /* This cuts the middle out so the gradient ONLY exists on the edge */
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+@utility bento-card-border-glass {
+  position: relative;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding:4px;
+    border-radius: inherit;
+    background: var(--bg-gradient-cyber);
+    
+    /* This cuts the middle out so the gradient ONLY exists on the edge */
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+    margin-block: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .group:hover .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .group:hover .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.4); 
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    transition: scrollbar-color 0.2s ease;
+  }
+  .scrollbar-visible {
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent !important;
+  }
+
+  .group:hover .custom-scrollbar {
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  }
+
+  .scrollbar-visible::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-button,
+  .custom-scrollbar::-webkit-scrollbar-button:single-button,
+  .custom-scrollbar::-webkit-scrollbar-button:double-button,
+  .scrollbar-visible::-webkit-scrollbar-button,
+  .scrollbar-visible::-webkit-scrollbar-button:single-button,
+  .scrollbar-visible::-webkit-scrollbar-button:double-button {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    background: transparent !important;
+    -webkit-appearance: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+}
+
+body{
+  background-color: #0f172a;
+
+  background-image:url('./assets/backgroundPattern.png');
+  background-blend-mode: multiply;
+  background-size: 350px;
+
+  overflow-x:hidden;
+}

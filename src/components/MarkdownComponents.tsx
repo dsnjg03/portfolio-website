@@ -126,12 +126,12 @@ export const MarkdownComponents = {
                 href={href}
                 target={isExternal ? "_blank" : undefined}
                 rel={isExternal ? "noopener noreferrer" : undefined}
-                className="inline-flex items-center text-primary hover:text-accent font-display underline underline-offset-4 decoration-primary/30 transition-all"
+                className="inline items-center text-primary hover:text-accent font-display underline underline-offset-4 decoration-primary/30 transition-all"
             >
                 {children}
                 {isExternal && 
                 (
-                    <ExternalLink size={12}  className="opacity-60 mb-1 group-hover:opacity-100 transition-opacity"/>
+                    <ExternalLink size={12}  className="opacity-60 mb-2 inline group-hover:opacity-100 transition-opacity"/>
                 )}
             </a>
         )

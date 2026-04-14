@@ -13,7 +13,7 @@ import { VscJson } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { TfiEmail } from "react-icons/tfi";
 import { Carousel } from "./components/Carousel";
-import { ProjectsData } from "./data/ProjectsData";
+import { ProjectsData, ProjectStatus } from "./data/ProjectsData";
 import { useState } from "react";
 import { ProjectModal } from "./components/ProjectModal";
 import { motion } from "framer-motion";
@@ -76,7 +76,7 @@ export default function Home(){
                 <CardTitle 
                     title={"Currently Working On"}   
                 />
-                <Carousel items={ProjectsData.filter(p => p.isInProgress).map((project) => {
+                <Carousel items={ProjectsData.filter(p => p.status == ProjectStatus.InProgress).map((project) => {
                     return (
                         <div
                             key={project.id}

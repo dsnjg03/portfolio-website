@@ -22,7 +22,6 @@ export interface ProjectData{
     thumbnailPath?:string,
     featured?:boolean,
     status?:number,
-    isInProgress?:boolean,
     hideFromProjectsPage?:boolean,
 }
 
@@ -64,7 +63,6 @@ export const ProjectsData:ProjectData[] = [
         shortDescription:`Exploring complex game networking in Unity through development of a FPS co-op game, utilizing their
         high-level "Netcode for GameObjects" library to implement real-time client synchronization and server-authoritative logic.`,
         thumbnailPath:UnityProject_Thumbnail,   
-        isInProgress:true,     
         status:ProjectStatus.InProgress,
         featured:true
     },
@@ -74,7 +72,7 @@ export const ProjectsData:ProjectData[] = [
         shortDescription:`Expanding my knowledge in backend programming and building secure, high-performance REST APIs, by focusing on 
         Native PHP (8.x) fundamentals to establish a deep understanding before moving to Laravel.`,
         thumbnailPath:PHP_Thumbnail,
-        isInProgress:true,     
+        status:ProjectStatus.InProgress, 
         hideFromProjectsPage:true,
     }, 
     {
@@ -83,7 +81,7 @@ export const ProjectsData:ProjectData[] = [
         shortDescription:`Extending my existing React frontend experience into mobile application development territory. Currently focusing on React Native 
         to build performant, cross-platform native applications for Android and iOS.`,
         thumbnailPath:ReactNative_Thumbnail,
-        isInProgress:true,     
+        status:ProjectStatus.InProgress, 
         hideFromProjectsPage:true,
     },      
     {

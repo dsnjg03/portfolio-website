@@ -6,7 +6,7 @@ The last update was on *13th April, 2026*.
 
 </centertext>
 
-<centeredimage src="/projects/images/thumbnail_UnityProject.png" alt=""></centeredimage>
+<centeredimage src="/projects/images/thumbnail_UnityProject.webp" alt=""></centeredimage>
 
 # Table of Contents
 * [Introduction](#introduction)

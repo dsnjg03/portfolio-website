@@ -1,4 +1,4 @@
-<centeredimage src="/projects/images/thumbnail_SocialMedia.png" alt="Social Media App Home Page"></centeredimage>
+<centeredimage src="/projects/images/thumbnail_SocialMedia.webp" alt="Social Media App Home Page"></centeredimage>
 
 # Table of Contents
 * [Introduction](#introduction)

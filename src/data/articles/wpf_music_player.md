@@ -1,4 +1,4 @@
-<centeredimage src="/projects/images/thumbnail_MusicPlayer.png" height=120 alt="WPF Music Player App"></centeredimage>
+<centeredimage src="/projects/images/thumbnail_MusicPlayer.webp" height=120 alt="WPF Music Player App"></centeredimage>
 
 ## Table of Contents
 * [Description](#description)

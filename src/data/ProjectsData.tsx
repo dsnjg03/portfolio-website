@@ -1,11 +1,11 @@
-import NotesApp_Thumbnail from "../assets/projects/thumbnail_NotesApp.png";
-import SocialMedia_Thumbnail from "../assets/projects/thumbnail_SocialMedia.png";
-import TicTacToe_Thumbnail from "../assets/projects/thumbnail_TicTacToe.png";
-import MusicPlayer_Thumbnail from "../assets/projects/thumbnail_MusicPlayer.png";
-import UnityProject_Thumbnail from "../assets/projects/thumbnail_UnityProject.png"
-import PHP_Thumbnail from "../assets/projects/thumbnail_PHP.png"
-import ReactNative_Thumbnail from "../assets/projects/thumbnail_ReactNative.png"
-import PortfolioWebsite_Thumbnail from "../assets/projects/thumbnail_PortfolioWebsite.png";
+import NotesApp_Thumbnail from "../assets/projects/thumbnail_NotesApp.webp";
+import SocialMedia_Thumbnail from "../assets/projects/thumbnail_SocialMedia.webp";
+import TicTacToe_Thumbnail from "../assets/projects/thumbnail_TicTacToe.webp";
+import MusicPlayer_Thumbnail from "../assets/projects/thumbnail_MusicPlayer.webp";
+import UnityProject_Thumbnail from "../assets/projects/thumbnail_UnityProject.webp"
+import PHP_Thumbnail from "../assets/projects/thumbnail_PHP.webp"
+import ReactNative_Thumbnail from "../assets/projects/thumbnail_ReactNative.webp"
+import PortfolioWebsite_Thumbnail from "../assets/projects/thumbnail_PortfolioWebsite.webp";
 //import imageNotAvailable from "../assets/imageNotAvailable.png";
 
 export const ProjectStatus = {

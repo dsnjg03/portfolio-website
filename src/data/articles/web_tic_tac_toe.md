@@ -1,4 +1,4 @@
-<centeredimage src="/projects/images/thumbnail_TicTacToe.png" height=120 alt="Tic-Tac-Toe Web Game"></centeredimage>
+<centeredimage src="/projects/images/thumbnail_TicTacToe.webp" height=120 alt="Tic-Tac-Toe Web Game"></centeredimage>
 
 ## Table of Contents
 * [Description](#description)

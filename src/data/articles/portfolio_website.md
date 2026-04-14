@@ -1,4 +1,4 @@
-<centeredimage src="/projects/images/thumbnail_PortfolioWebsite.png" alt="Portfolio Home Page"></centeredimage>
+<centeredimage src="/projects/images/thumbnail_PortfolioWebsite.webp" alt="Portfolio Home Page"></centeredimage>
 
 # Table of Contents
 * [Introduction](#introduction)

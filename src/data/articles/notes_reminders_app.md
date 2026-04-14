@@ -1,4 +1,4 @@
-<centeredimage src="/projects/images/thumbnail_NotesApp.png" alt="Notes App Dashboard"></centeredimage>
+<centeredimage src="/projects/images/thumbnail_NotesApp.webp" alt="Notes App Dashboard"></centeredimage>
 
 # Table of Contents
 * [Introduction](#introduction)
@@ -29,7 +29,7 @@ I wanted my app to feel "live", so changes don't only happen then the user refre
 
 # Features
 
-<centeredimage src="/projects/images/notes_app/realtimeExample.png" height=100 alt="Example of real-time functionality: sharing notes"></centeredimage>
+<centeredimage src="/projects/images/notes_app/realtimeExample.webp" height=100 alt="Example of real-time functionality: sharing notes"></centeredimage>
 
 * **User Accounts:** Full registration and login system, tying every note and reminder to a user profile.
 * **Note Management:** Notes can be created, edited, deleted, and shared with other users. Furthermore, each note can be exported in a raw text *(.txt)* or Rich Text *(.rtf)* format, have a reminder tied to it, and provide information such as the author, date of creation and last edit, and users it's shared with. Each note can have a custom title and description.
@@ -46,7 +46,7 @@ I wanted my app to feel "live", so changes don't only happen then the user refre
 ### Authentication Screen
 
 </centertext>
-<centeredimage src="/projects/images/notes_app/authLoading.png" size="sm" marginbottom=-4 height=100 alt="Example: sign-in loading"></centeredimage>
+<centeredimage src="/projects/images/notes_app/authLoading.webp" size="sm" marginbottom=-4 height=100 alt="Example: sign-in loading"></centeredimage>
 
 <centertext>
 
@@ -61,7 +61,7 @@ This is where the user can **sign in** or **register**.
 ### Note Management
 
 </centertext>
-<centeredimage src="/projects/images/notes_app/noteCreation.png" size="sm" marginbottom=-4 height=100 alt="Note Creation"></centeredimage>
+<centeredimage src="/projects/images/notes_app/noteCreation.webp" size="sm" marginbottom=-4 height=100 alt="Note Creation"></centeredimage>
 
 <centertext>
 
@@ -69,7 +69,7 @@ When creating notes, the user must enter a **title**, and optionally, a **descri
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/noteInfo.png" size="sm" marginbottom=-4 height=100 alt="Note Information"></centeredimage>
+<centeredimage src="/projects/images/notes_app/noteInfo.webp" size="sm" marginbottom=-4 height=100 alt="Note Information"></centeredimage>
 
 <centertext>
 
@@ -77,7 +77,7 @@ The user can view a note's information, such as the **author, date of creation, 
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/noteContextMenu.png" size="sm" marginbottom=-4 height=72 alt="Note Context Menu"></centeredimage>
+<centeredimage src="/projects/images/notes_app/noteContextMenu.webp" size="sm" marginbottom=-4 height=72 alt="Note Context Menu"></centeredimage>
 
 <centertext>
 
@@ -85,7 +85,7 @@ Right clicking a note opens a custom context menu where the user can export a no
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/noteEditing.png" size="sm" marginbottom=-4 height=100 alt="Note Editor"></centeredimage>
+<centeredimage src="/projects/images/notes_app/noteEditing.webp" size="sm" marginbottom=-4 height=100 alt="Note Editor"></centeredimage>
 
 <centertext>
 
@@ -93,7 +93,7 @@ Notes can be edited with basic styling options, such as making the text **bold**
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/noteDeletion.png" size="sm" marginbottom=-4 height=100 alt="Deleting a note"></centeredimage>
+<centeredimage src="/projects/images/notes_app/noteDeletion.webp" size="sm" marginbottom=-4 height=100 alt="Deleting a note"></centeredimage>
 
 <centertext>
 
@@ -101,7 +101,7 @@ To prevent accidents, users are prompted to enter their username as confirmation
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/noteSharing.png" size="sm" marginbottom=-4 height=100 alt="Sharing a note"></centeredimage>
+<centeredimage src="/projects/images/notes_app/noteSharing.webp" size="sm" marginbottom=-4 height=100 alt="Sharing a note"></centeredimage>
 
 <centertext>
 
@@ -117,7 +117,7 @@ Notes can be shared with other users, who will instantly get notified and see th
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/remindersPanel.png" size="sm" marginbottom=-4 height=100 alt="Reminders Dashboard"></centeredimage>
+<centeredimage src="/projects/images/notes_app/remindersPanel.webp" size="sm" marginbottom=-4 height=100 alt="Reminders Dashboard"></centeredimage>
 
 <centertext>
 
@@ -127,7 +127,7 @@ Reminders can also be sorted *(Newest <-> Oldest, by date & time)* and filtered 
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/reminderCreation.png" size="sm" marginbottom=-4 height=100 alt="Creating a reminder"></centeredimage>
+<centeredimage src="/projects/images/notes_app/reminderCreation.webp" size="sm" marginbottom=-4 height=100 alt="Creating a reminder"></centeredimage>
 
 <centertext>
 
@@ -135,7 +135,7 @@ A reminder must be given a name and note to be tied to, and the user can choose 
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/windowsReminder.png" size="sm" marginbottom=-4 height=100 alt="Example of a reminder going off"></centeredimage>
+<centeredimage src="/projects/images/notes_app/windowsReminder.webp" size="sm" marginbottom=-4 height=100 alt="Example of a reminder going off"></centeredimage>
 
 <centertext>
 
@@ -151,7 +151,7 @@ Users are notified about reminders using native **Windows notifications** which 
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/notificationsPanel.png" size="sm" marginbottom=-4 height=100 alt="Notifications Dashboard"></centeredimage>
+<centeredimage src="/projects/images/notes_app/notificationsPanel.webp" size="sm" marginbottom=-4 height=100 alt="Notifications Dashboard"></centeredimage>
 
 <centertext>
 
@@ -161,7 +161,7 @@ Users can view all their notifications in one place. Notifications are sent out 
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/darkThemeExample.png" size="sm" marginbottom=-4 height=70 alt="Dark theme example"></centeredimage>
+<centeredimage src="/projects/images/notes_app/darkThemeExample.webp" size="sm" marginbottom=-4 height=70 alt="Dark theme example"></centeredimage>
 
 <centertext>
 
@@ -171,7 +171,7 @@ Users can pick between a **light or dark UI theme**, updated instantly across th
 
 </centertext>
 
-<centeredimage src="/projects/images/notes_app/englishLanguageExample.png" size="sm" marginbottom=-4 height=100 alt="Language change example"></centeredimage>
+<centeredimage src="/projects/images/notes_app/englishLanguageExample.webp" size="sm" marginbottom=-4 height=100 alt="Language change example"></centeredimage>
 
 <centertext>
 
